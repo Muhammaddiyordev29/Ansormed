@@ -1,0 +1,136 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Open sans" "Arial" 'sans-serif';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0,5;
+}
+
+.container{
+  width: 100%;
+  max-width: 1160px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.site-header{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #fff;
+}
+.site-header-container{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+/* site logo  */
+.site-logo{
+  display: flex;
+  align-items:center;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #222;
+  text-decoration: none;
+}
+.site-logo:hover{
+  color: #DE2E54;
+}
+.site-logo:active{
+  color: #fff;
+  opacity: 0.6;
+}
+.site-logo-img{
+  margin-right: 16px;
+  border-radius:50%;
+}
+/* navogation  */
+.sitenav{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.sitenav-list{
+  display: flex;
+  align-items:center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sitenav-item:not(:last-child){
+  margin-right: 32px;
+}
+.sitenav-link{
+  display: block;
+  color: #222;
+  text-decoration: none;
+}
+.sitenav-link:hover{
+  color: #DE2E54;
+}
+.sitenav-link:active{
+  opacity: 0,6;
+}
+
+.btn-link{
+  display: inline;
+  padding: 10px 22px;
+  font-family: 'Open Sans Condensed' sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #DE2E54;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
+}
+.btn-link:hover{
+  color:#DE2E54;
+  background-color: #fff;
+  opacity: 0.5;
+}
+.btn-link:active{
+
+  background-color:#DE2E54;
+  color:#fff;
+}
+
+/* site footer */
+.site-footer{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color:#fff;
+  background: #000;
+}
+.site-footer-container{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.site-logo-site-footer{
+  color: #fff;
+}
+.sitenav-list-footer .sitenav-link{
+  color:#fff;
+}
+.sitenav-list-footer .sitenav-link:hover{
+  color: #DE2E54;
+  opacity: 0.6;
+}
+.sitenav-list-footer .sitenav-link:active{
+  color: #fff;
+  opacity: 0.6;
+}
